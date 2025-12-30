@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo 'Cloning Flask application from GitHub...'
                 git branch: 'main',
-                    url: 'https://github.com/USERNAME/flask-app.git'
+                    url: 'https://github.com/vaniaazeem/flask-app.git'
             }
         }
 
